@@ -1,0 +1,273 @@
+@font-face {
+    font-family: regular;
+    src: url(Fuentes/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+    font-family: medio;
+    src: url(Fuentes/BaiJamjuree-Medium.ttf);
+}
+
+h1,h2,h3{
+    font-family: medio;
+
+}
+p{
+    font-family: regular;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em 0 2em 0;
+}
+.button1{
+    width: 50%;
+    border: none;
+    background: #26bba5;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+}
+.button2{
+    width: 50%;
+    border: none;
+    background: #6174FF;
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+}
+
+.sc1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sc1 ul{
+    grid-column: 2;
+    padding: 6em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sc1 li{
+    padding: 1.5em;
+}
+
+.sc2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sc3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto{
+    flex-direction: column;
+}
+.div-unu{
+    flex-direction: column;
+    margin: 2em;
+}
+.div-do{
+    flex-direction: column;
+    margin: 2em;
+}
+.div-tre{
+    flex-direction: column;
+    margin: 2em;
+}
+
+.sc3 ul{
+    flex-direction: row;
+    margin: 2em;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.sc4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#pie-pagina{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+#pie-pagina ul{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex center;
+    list-style: none;
+    line-height: 2;
+}
+
+.creditos{
+    
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nose{
+    
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.logo-2 img{
+    width: 50%;
+}
+@media only screen and (min-width: 0px) and (max-width:600px){
+    body {
+        
+    }
+    #banner{
+        height: 115vh;
+    }
+    #banner figure{
+        width: 100%;
+        margin-top: 7em;
+        margin-bottom: 5em;
+    }
+    #banner figure img{
+        width: 30%;
+    }
+    .banner-text1{
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #banner h1{
+        font-size: 27px;
+    }
+   
+    .banner-text2{
+        margin-top: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .banner-text2 p{
+        
+        width: 70%;
+    }
+
+
+
+    .sc1{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+   
+    .sc1 figure{
+        padding: 0 2em 0 2em;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .sc1 figure img {
+        width: 100%;
+    }
+    .sc1 ul{
+        grid-column: 1;
+        grid-row: 2;
+
+    }
+    .sc2-text{
+        width: 90%;
+    }
+    .sc2 figure{
+        width: 100%;
+    }
+    .sc2 figure img{
+        width: 95%;
+    }
+    .sc3{
+        width: 100%;    
+    }
+    .sc3 ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .div2{
+        display: flex;
+        flex-direction: column;
+    }
+    .sc3-text1{
+        text-align: center;
+        width: 100%;
+        padding: 1em;
+        display: flex;
+    }
+    .sc3-text2{
+        display: flex;
+         flex-direction: column;
+         width: 100%;
+         height: 100vh;
+    }
+    .sc4{
+        height: 50%;
+    }
+    .sc4 p{
+        width: 100%;
+        padding: 2em 0 2em 0;
+    }
+.nose{
+    display: flex;
+    flex-direction: column;
+}
+    .creditos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #pie-pagina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-2{
+        width: 30%;
+    }
+    .nose{
+        width: 10%;
+    }
+
+}
